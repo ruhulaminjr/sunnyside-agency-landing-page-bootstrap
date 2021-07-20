@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+font {
+  font-family: "Barlow", sans-serif;
+  font-family: "Fraunces", serif;
+}
+colors {
+  color: hsl(7, 99%, 70%);
+  color: hsl(51, 100%, 49%);
+  color: hsl(167, 40%, 24%);
+  color: hsl(198, 62%, 26%);
+  color: hsl(168, 34%, 41%);
+  color: hsl(212, 27%, 19%);
+  color: hsl(212, 27%, 19%);
+  color: hsl(232, 10%, 55%);
+  color: hsl(210, 4%, 67%);
+  color: hsl(0, 0%, 100%);
+}
