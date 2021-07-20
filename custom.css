@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
-font {
-  font-family: "Barlow", sans-serif;
+h1{
+  
   font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+a,p{
+    font-family: "Barlow", sans-serif;
 }
 colors {
   color: hsl(7, 99%, 70%);
@@ -14,4 +20,22 @@ colors {
   color: hsl(232, 10%, 55%);
   color: hsl(210, 4%, 67%);
   color: hsl(0, 0%, 100%);
+}
+
+header{
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+}
+header::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
